@@ -24,3 +24,24 @@ Para instalar o Vagrant, siga estas etapas:
 
    ```bash
    cd caminho/para/o/diretorio/do/projeto
+
+## Configuração do Arquivo de Script
+1. Abra o arquivo de script (por exemplo, bootstrap.sh) em um editor de texto.
+
+2. Configure o arquivo de script com suas especificações, como pacotes a serem instalados, configurações de ambiente, endereço IP, etc.
+
+3. Salve as alterações no arquivo de script. 💻
+
+## Configuração do Vagrantfile
+1. Abra o arquivo Vagrantfile em um editor de texto.
+
+2. Verifique e ajuste as configurações do Vagrantfile conforme necessário, incluindo o tipo de virtualizador (por exemplo, VirtualBox, VMware), a quantidade de memória, CPU, etc.
+
+3. Salve as alterações no arquivo Vagrantfile.
+
+## Comando vagrant up
+Por fim, para iniciar o ambiente virtual, use o comando vagrant up no terminal no diretório do projeto:
+
+`vagrant up`
+
+Este comando cria e provisiona a máquina virtual de acordo com as configurações especificadas no Vagrantfile e nos scripts de provisionamento. 🚀

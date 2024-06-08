@@ -1,0 +1,6 @@
+loop loop0 loop0 /snap/core20/2182
+loop loop1 loop1 /snap/lxd/24061
+loop loop2 loop2 /snap/snapd/20671
+part sda1 sda1 /
+disk sda sda 
+disk sdb sdb 

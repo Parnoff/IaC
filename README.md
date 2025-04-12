@@ -12,6 +12,7 @@ Este repositório visa fornecer exemplos e modelos de IaC para várias plataform
 - **Terraform**: para provisionamento de infraestrutura em nuvem.
 - **Ansible**: para automação de configuração e gerenciamento de sistemas.
 - **Docker**: para criação e implantação de contêineres.
+- **Podman**: para criação e implantação de contêineres.
 - **Kubernetes**: para orquestração de contêineres e gerenciamento de clusters.
 
 ## Estrutura do Repositório
@@ -20,6 +21,7 @@ Este repositório visa fornecer exemplos e modelos de IaC para várias plataform
 - `/terraform`: Contém projetos de IaC escritos em Terraform.
 - `/ansible`: Contém playbooks e roles para automação de configuração com Ansible.
 - `/docker`: Contém exemplos e arquivos de configuração para uso do Docker.
+- `/podman`: Contém exemplos e arquivos de configuração para uso do Podman.
 - `/kubernetes`: Contém manifestos e configurações do Kubernetes.
 
 ## Como Usar

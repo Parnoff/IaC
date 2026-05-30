@@ -1,0 +1,16 @@
+VM_NAME = "zabbix7-server-orl8"
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "parnoff/oraclelinux8"
+  config.vm.network "public_network", ip: "192.168.0.130"
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = "4096"
+    vb.cpus = "2"
+    vb.name = VM_NAME
+  end
+
+  config.vm.boot_timeout = 1000
+  config.vm.provision "shell", 
+    path: "./scripts/provision-zabbix-server.sh",
+    args: [VM_NAME]
+end
